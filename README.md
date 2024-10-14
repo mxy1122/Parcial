@@ -37,38 +37,35 @@ MutantM es una API que permite verificar si una secuencia de ADN pertenece a un 
 - ### Columnas:
   ```
   {
-  "dna": [
-    "CTGCTA",
-    "TGGAGT",
-    "GCTTCC",
-    "CACCTG",
-    "CTAGTC",
-    "AGTCAC"
+    "dna": ["CTGCTA",
+            "TGGAGT",
+            "GCTTCC",
+            "CACCTG",
+            "CTAGTC",
+            "AGTCAC"
   ]
 }
 
 - ### Diagonales:
     ```
   {
-  "dna": [
-    "ATGCGA",
-    "CAGTGC",
-    "TTATGT",
-    "AGAAGG",
-    "CCCCTA",
-    "TCACTG"
+    "dna": ["ATGCGA",
+            "CAGTGC",
+            "TTATGT",
+            "AGAAGG",
+            "CCCCTA",
+            "TCACTG"
   ]
 }
 - ### No mutantes:
     ```
     {
-  "dna": [
-    "ATGCGA",
-    "CAGTGC",
-    "TTATTT",
-    "AGACGG",
-    "GCGTCA",
-    "TCACTG"
+      "dna": ["ATGCGA",
+              "CAGTGC",
+              "TTATTT",
+              "AGACGG",
+              "GCGTCA",
+              "TCACTG"
   ]
 }
 
