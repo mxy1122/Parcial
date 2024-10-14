@@ -133,9 +133,9 @@ public class PersonaService {
         // Retornamos las estadísticas
         //Stat stats = Stat.builder().count;
     }
-    public void save(Persona persona) {
+    public Persona save(Persona persona) {
 
-        personaRepository.save(persona);  // Guardar la persona en la base de datos
+       return personaRepository.save(persona);  // Guardar la persona en la base de datos
 
     }
 
