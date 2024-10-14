@@ -12,6 +12,14 @@ MutantM es una API que permite verificar si una secuencia de ADN pertenece a un 
 - Base de datos en memoria H2 para pruebas rápidas.
 - Desplegable en un contenedor Docker.
 
+## Instalacion
+
+---
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/usuario/proyecto-x.git
+---
+
 ## Endpoints
 
 -Los endopoints se pueden probar desde postman
