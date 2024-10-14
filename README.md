@@ -22,7 +22,7 @@ MutantM es una API que permite verificar si una secuencia de ADN pertenece a un 
 
 ## Endpoints
 
--Los endopoints se pueden probar desde postman
+-Los endopoints se pueden probar desde Postman y Render
 
 ### **Postman**
 
@@ -35,6 +35,17 @@ Metodo GET : http://localhost:8080/mutant/stats
 * `" Endpoint"/mutant"`
 
 Metodo POST : http://localhost:8080/mutant/agregar
+
+### **Render**
+
+Para probar los endpoints en render hay que hacer los cambios de
+
+
+Metodo GET : https://parcial-wct7.onrender.com/mutant/stats
+
+
+Metodo POST : https://parcial-wct7.onrender.com/mutant/agregar
+
 
 ### Verificar si es mutante
 
