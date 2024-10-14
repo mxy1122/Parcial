@@ -87,5 +87,8 @@ Metodo POST : http://localhost:8080/mutant/agregar
               "TCACTG"]
     }
 
+# Pruebas Unitarias
+
+Se incluyen casos de pruebas contemplando como siendo Mutante como Humano y Guardar una cadena de ADN
 
 
