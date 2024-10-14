@@ -14,6 +14,20 @@ MutantM es una API que permite verificar si una secuencia de ADN pertenece a un 
 
 ## Endpoints
 
+-Los endopoints se pueden probar desde postman
+
+### **Postman**
+
+Desde Postman, se pueden probar los endpoints "/mutant" y "/stats".
+
+* `"Endpoint "/stats"`
+
+Metodo GET : http://localhost:8080/mutant/stats
+
+* `" Endpoint"/mutant"`
+
+Metodo POST : http://localhost:8080/mutant/agregar
+
 ### Verificar si es mutante
 
 - **URL**: `/mutant/agregar`
@@ -30,8 +44,6 @@ MutantM es una API que permite verificar si una secuencia de ADN pertenece a un 
             "AGAAGG",
             "CCCCTA",
              "TCACTG"]
-
-  
   }
 
 - ### Columnas:
@@ -43,8 +55,7 @@ MutantM es una API que permite verificar si una secuencia de ADN pertenece a un 
             "CACCTG",
             "CTAGTC",
             "AGTCAC"`]
-  ]
-}
+  }
 
 - ### Diagonales:
     ```
@@ -55,8 +66,8 @@ MutantM es una API que permite verificar si una secuencia de ADN pertenece a un 
             "AGAAGG",
             "CCCCTA",
             "TCACTG"]
-  ]
-}
+  }
+  
 - ### No mutantes:
     ```
     {
@@ -66,5 +77,17 @@ MutantM es una API que permite verificar si una secuencia de ADN pertenece a un 
               "AGACGG",
               "GCGTCA",
               "TCACTG"]
-  ]
+    }
+
+-## Stats
+-### Url : /mutant/stats
+-### Metodo : get
+-### Respuesta 
+  ```
+{
+  "countMutantDna": 40,
+  "countHumanDna": 100,
+  "ratio": 0.4
 }
+
+
