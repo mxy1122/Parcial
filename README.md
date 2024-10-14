@@ -79,15 +79,5 @@ Metodo POST : http://localhost:8080/mutant/agregar
               "TCACTG"]
     }
 
--## Stats
--### Url : /mutant/stats
--### Metodo : get
--### Respuesta 
-  ```
-{
-  "countMutantDna": 40,
-  "countHumanDna": 100,
-  "ratio": 0.4
-}
 
 
