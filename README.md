@@ -42,7 +42,7 @@ MutantM es una API que permite verificar si una secuencia de ADN pertenece a un 
             "GCTTCC",
             "CACCTG",
             "CTAGTC",
-            "AGTCAC"
+            "AGTCAC"`]
   ]
 }
 
@@ -54,7 +54,7 @@ MutantM es una API que permite verificar si una secuencia de ADN pertenece a un 
             "TTATGT",
             "AGAAGG",
             "CCCCTA",
-            "TCACTG"
+            "TCACTG"]
   ]
 }
 - ### No mutantes:
@@ -65,10 +65,6 @@ MutantM es una API que permite verificar si una secuencia de ADN pertenece a un 
               "TTATTT",
               "AGACGG",
               "GCGTCA",
-              "TCACTG"
+              "TCACTG"]
   ]
 }
-
-
-  
-  
